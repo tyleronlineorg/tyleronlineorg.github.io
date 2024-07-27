@@ -10,29 +10,32 @@
     </div>
     <header>
         <h1>Color 3D Printed Custom Lithophane Box</h1>
+    <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
     </header>
 
     <main>
-        <section class="product-intro">
-            <h2>Introducing the Best Product Ever</h2>
-            <p>Our product is designed to solve your problems and make your life easier. Stay tuned for more information and photos!</p>
-        </section>
-
-        <section class="product-gallery">
-            <h2>Product Gallery</h2>
-            <div class="gallery">
-                <img src="product1.jpg" alt="Product Image 1">
-            </div>
-        </section>
-
-        <section class="product-details">
-            <h2>Product Details</h2>
-            <p>Here you will find more detailed information about the product. Specifications, features, and benefits will be listed here.</p>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form" action="https://formspree.io/f/mqazpqgn" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="_replyto" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 tyleronline.org. All rights reserved.</p>
+        <p>&copy; 2024 My Product. All rights reserved.</p>
     </footer>
 </body>
 </html>
